@@ -13,6 +13,7 @@ namespace HomeTask.UnitTests
         [TestCase("x", ExpectedResult = "x")]
         [TestCase("(10+5)", ExpectedResult = "15")]
         [TestCase("1+2+3", ExpectedResult = "6")]
+        [TestCase("((1+2)+3)", ExpectedResult = "6")]
         [TestCase("(x+1)", ExpectedResult = "x+1")]
         [TestCase("1*x*2*x", ExpectedResult = "2*x^2")]
         [TestCase("1*x*2*x*3*x", ExpectedResult = "6*x^3")]
